@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+}
+
+/* container  */
+.container{
+    margin: 50px 150px;
+    padding: 1em;
+};
+
+/* p */
+p{
+    margin: 0.2em;
+}
+.p-size{
+    font-size: 1.4em;
+}
+
+/* span */
+.span-style{
+    font-style: italic;
+};
+.span-size{
+    font-size: 1.4em;
+}
+
+
+
+/* border */
+.header-container,  .main-container{
+    border: 2px solid black;
+}
+

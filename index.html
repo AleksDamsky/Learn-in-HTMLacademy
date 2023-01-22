@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <title>HTMLacademy</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <p class="header-p">1.9.Формы.Знакомство.</p>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="container main-container">
+            <p class="firstForm" style="font-size: 1.4em;">Первая Форма.</p>
+            <p class="firstFormDescription">Формы нужны для того, чтобы отправлять данные с веб-страницы на веб-сервер, который сможет эти данные обработать: зарегистрировать пользователя, создать сообщение на форуме, отправить письмо и так далее. <br>
+            &lt;form&gt; имеет два атрибута <span style="font-style:italic;">action & method</span>. <br>
+            action - атрибут, который задает ссылку, куда отправлять данные из формы. <br>
+            method - атрибут, показывающий способ отправки данных. <br>
+            <br>
+            У <span style="font-style: italic;">method</span> есть два способа отправки - get & post. <br>
+            <br>
+            get - лучше использовать в поисковых формах, потому что он позволяет получить ссылку на результаты поиска и передать её кому-то. 
+            <br>
+            <br>
+            post - посылает данные в теле HTTP-запроса и используется, когда нужно отправить много данных и ссылка на результат обработки этих данных не нужна. Например, при редактировании личного профиля.</p>
+            <br>
+                <hr>
+                <br>
+            <p class="p-size">Текстовое поле ввода.</p>
+            <p>&lt;input&gt; - одиночный тег, в котром создается форма. <br>
+            Имеет два атрибута: <span style="font-style: italic;"> type & name</span>. <br>
+            <br>
+            type - отвечает за то, какого типа форма будет отправляться: текст, пароль или <a href="http://htmlbook.ru/html/input/type" target="_blank">можно смотреть здесь</a>.
+            <br>
+            name - задает специальное имя для формы. ИМЯ А НЕ АЙДИШНИК.</p>
+            <br>
+            <p>Пример.</p>
+            <form action="#" method="get">
+                <input type="text" name="firstInput">
+            </form>
+            <br>
+            <p>Атрибут <span class="span-style">id</span> является идентификатором элемента.</p>
+            <br>
+            <p>Атрибут <span class="span-style">value</span> по умолчанию задает значение полю ввода.</p>
+            <form action="#" method="get">
+                <input type="text" name="firstInput" id="input-example" value="пример">
+            </form>
+            <br>
+            <hr>
+            <br>
+            <p class="p-size">&lt;label&gt;</p>
+            <p>&lt;label&gt; - тег, который связывает форму и инпут логически.</p>
+            <br>
+            <p>Тег имеет атрибут <span class="span-style">for</span>, в котором указывается айдишник инпута. Таким образов поле ввода и лейбл связываются логически</p> 
+            <br>
+            <p>Пример.</p>
+            <pre><code>
+                &lt;form action="#"&gt;
+                    &lt;label for="example2"&gt;
+                        &lt;input type="text" name="input" id="example2"&gt;
+                    &lt;/label&gt;
+                &lt;/form&gt;
+            </code></pre>
+        </div>
+    </main>
+</body>
+</html>

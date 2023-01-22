@@ -141,7 +141,35 @@
                     </label>
                 </form> 
             </div>
-
+            <br><hr><br>
+            <p class="p-size">Радиокнопки в формах.</p>
+            <p>В тайпе инпута также присутствует свойство <span class="span-style">radio</span>.</p>
+            <form action="##">
+                <label for="radio">
+                    <input type="radio" name="radio" id="radio" value="5">
+                </label>
+            </form>
+            <p>У этого свойста тоже есть подсвойство <span class="span-style">checked</span>.</p>
+            <form action="##">
+                <label for="radio">
+                    <input type="radio" name="radio" id="radio" value="5" checked>
+                </label>
+            </form>
+            <br><hr><br>
+            <p class="p-size">Раскрывающиеся списки.</p>
+            <p>За это отвечает тэг &lt;select&gt;. <br>
+            У него также есть <span class="span-style">name & id</span>, такие же, как и у других тегов.</p>
+            <p>Внутри этого тега есть тег &lt;option&gt;, которые задают варианты выбора. <br>
+            У этих внутренних тегов также присутствует свойство <span class="span-style">value</span>, которое задает занчение выбора.</p>
+            <p>Пример.</p>
+                <select name="list" id="example5">
+                    <option value="1">Ex1</option>
+                    <option value="2">Ex2</option>
+                    <option value="3">Ex3</option>
+                    <option value="4">Ex4</option>
+                    <option value="5">Ex5</option>
+                    <option value="6">Ex6</option>
+                </select>
         </div>
     </main>
 </body>

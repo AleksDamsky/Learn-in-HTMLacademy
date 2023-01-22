@@ -11,6 +11,11 @@
     <header class="header">
         <div class="container header-container">
             <p class="header-p">1.9.Формы.Знакомство.</p>
+            <form action="#btn">
+                <label for="btn2">
+                    <input type="submit" value="Выйти" id="btn2">
+                </label>
+            </form>
         </div>
     </header>
     
@@ -66,6 +71,77 @@
                     &lt;/label&gt;
                 &lt;/form&gt;
             </code></pre>
+            <br>
+            <hr>
+            <br>
+            <p class="p-size">Кнопка отправки формы.</p>
+            <p>Эта кнопка создается также, через инпут, только в тайпе пишется <span class="span-style">submit</span>, а в <span class="span-style">value</span> название этой название этой кнопки.</p>
+            <form action="#">
+                <label for="btn">
+                    <input type="submit" value="Войти" id="btn">
+                </label>
+            </form>
+            <br>
+            <hr>
+            <br>
+            <p class="p-size">Большое окно поля ввода.</p>
+            &lt;textarea&gt; - большое окно поля ввода.
+            <br>
+            <br>
+            <textarea name="example3" id="ta" cols="8" rows="3">Пример.</textarea>
+            <br>
+            <p>Этот тег имеет 4 основных атрибута: <span class="span-style">name, id, rows, cols</span>.</p>
+            <br>
+            <p>Первые два атрибута идентичны инпуту, а вот <span class="span-style">rows</span> - задает высоту поля, <span class="span-style">cols</span> - задает ширину поля.</p>
+            <br>
+            <p><span class="span-style">value</span> тут нет, поэтому занчение по дефолту ставится между &lt;textarea&gt;&lt;/textarea&gt;></p>
+            <br><hr><br>
+            <p class="p-size">Кнопка Чекбокс.</p>
+            <p>У инпута в тайпе также есть свойство <span class="span-style">checkbox</span>.
+            <br>
+            <form action="##">
+                <label for="example4">
+                    <input type="checkbox" name="input" id="cheb">
+                </label>
+            </form>
+            <p>Также у этого <span class="span-style">checkbox</span> есть свойство <span class="span-style">checked</span>. Оно делает галочку внутри по дефолту отмеченной.</p>
+            <form action="##">
+                <label for="cheb2">
+                    <input type="checkbox" name="input" id="cheb2" checked>
+                </label>
+            </form>
+            </p>
+            <br><hr><br>
+            <p class="p-size">Форма полного вида.</p>
+            <div class="fullFormExample">
+                <p>Привет! Зарегистрируйся, пожалуйста, ниже.</p>
+                <h2>Регистрация</h2> 
+                <form action="index2.html" target="_blank">
+                    <label for="login">
+                        Введи свой логин: <br>
+                        <input type="text" id="login">
+                    </label>
+                    <br>
+                    <label for="password">
+                        Введи свой пароль: <br>
+                        <input type="password" id="password">
+                    </label>
+                    <br>
+                    <label for="info">
+                        <p>Чуть-чуть информации о себе:</p>
+                        <textarea name="aboutMe" id="info" cols="30" rows="5">Я ваще топ чел.</textarea>
+                    </label>
+                    <br>
+                    <label for="check">
+                        Я пришлю тебе уведомление о встрече, ок? <input type="checkbox" id="check" checked>
+                    </label>
+                    <br>
+                    <label for="sub">
+                        <input type="submit" value="Зарегистрироваться">
+                    </label>
+                </form> 
+            </div>
+
         </div>
     </main>
 </body>

@@ -26,10 +26,13 @@ p{
     font-size: 1.4em;
 }
 
-
-
 /* border */
 .header-container,  .main-container{
     border: 2px solid black;
 }
 
+.fullFormExample{
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 2em;
+}

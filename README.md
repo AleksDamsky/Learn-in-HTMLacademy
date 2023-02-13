@@ -1,2 +1,3 @@
 # Learn-in-HTMLacademy
-In this repository I make a notes, which learning in Htmlacademy
+In this repository I make a notes, which learning in Htmlacademy<br>
+Need to make notes-file and write exercise from HTML academy there

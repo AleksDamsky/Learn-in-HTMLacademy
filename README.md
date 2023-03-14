@@ -14,3 +14,4 @@ Need to make notes-file and write exercise from HTML academy there <br>
 05-03-2023 - Сегодня я уделил программированию 1 помидор. Был загон. Продолжаю обучаться. Слишком отстал на курсе. Буду догонять. <br>
 06-03-2023 - Сегодня делал. Просто делал. Завершил объекты.<br>
 09-03-2023 - Today I worked on my job and I used short time to learn programming. I think, I used my time isn't right.<br>
+14-03-2023 - Today I lerned some exercises in HTML academy.<br>

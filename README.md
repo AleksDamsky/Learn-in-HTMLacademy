@@ -15,3 +15,4 @@ Need to make notes-file and write exercise from HTML academy there <br>
 06-03-2023 - Сегодня делал. Просто делал. Завершил объекты.<br>
 09-03-2023 - Today I worked on my job and I used short time to learn programming. I think, I used my time isn't right.<br>
 14-03-2023 - Today I lerned some exercises in HTML academy.<br>
+19-03-2023 - I don't know can I will be a developer man.<br>
